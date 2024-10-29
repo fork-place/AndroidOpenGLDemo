@@ -6,3 +6,10 @@
 .DS_Store
 /build
 /captures
+/.idea/caches/deviceStreaming.xml
+/.idea/gradle.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/compiler.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/migrations.xml

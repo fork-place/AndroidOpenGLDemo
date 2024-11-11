@@ -16,6 +16,8 @@ import javax.microedition.khronos.opengles.GL10;
 import edu.wuwang.opengl.utils.ShaderUtils;
 
 /**
+ * 带光源的球体
+ *
  * Created by wuwang on 2016/10/15
  */
 public class BallWithLight extends Shape {

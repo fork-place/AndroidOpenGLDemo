@@ -19,7 +19,7 @@ import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
 /**
- * Description:
+ * Description:绘制正方形
  */
 public class Square extends Shape {
 

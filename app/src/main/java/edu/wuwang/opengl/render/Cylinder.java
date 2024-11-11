@@ -16,6 +16,8 @@ import javax.microedition.khronos.opengles.GL10;
 import edu.wuwang.opengl.utils.ShaderUtils;
 
 /**
+ * 绘制圆柱
+ *
  * Created by wuwang on 2016/10/15
  */
 public class Cylinder extends Shape {

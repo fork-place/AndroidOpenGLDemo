@@ -18,7 +18,7 @@ import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
 /**
- * Description:
+ * Description:绘制带颜色的正三角形
  */
 public class TriangleColorFull extends Shape {
 

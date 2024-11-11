@@ -18,7 +18,7 @@ import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
 /**
- * Description:
+ * Description:绘制正三角形
  */
 public class TriangleWithCamera extends Shape {
 
@@ -99,6 +99,7 @@ public class TriangleWithCamera extends Shape {
         //设置透视投影
         Matrix.frustumM(mProjectMatrix, 0, -ratio, ratio, -1, 1, 3, 7);
         //设置相机位置
+        // https://blog.csdn.net/suyimin2010/article/details/99690455
         Matrix.setLookAtM(mViewMatrix, 0, 0, 0, 7.0f, 0f, 0f, 0f, 0f, 1.0f, 0.0f);
         //计算变换矩阵
         Matrix.multiplyMM(mMVPMatrix,0,mProjectMatrix,0,mViewMatrix,0);
